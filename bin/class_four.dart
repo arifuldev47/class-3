@@ -83,24 +83,24 @@
 //   print(finalPrice);
 // }
 
-// void main(){
-// convertMinutes(50);
-// }
-// void convertMinutes(int minutes){
-//   int hours = (minutes / 60).floor();
-//   int remainingMinutes = minutes % 60;
-//
-//   print("Hours: $hours\nRemaining minutes: $remainingMinutes");
-// }
-
 void main(){
-checkageEligibility(30);
+convertMinutes(50);
 }
-void checkageEligibility(int age){
-  if(age >= 18){
-    print("Eligible to vote");
-  }
-  else {
-    print("Not Eligible to vote");
-  }
+void convertMinutes(int minutes){
+  int hours = (minutes / 60).floor();
+  int remainingMinutes = minutes % 60;
+
+  print("Hours: $hours\nRemaining minutes: $remainingMinutes");
 }
+
+// void main(){
+// checkageEligibility(30);
+// }
+// void checkageEligibility(int age){
+//   if(age >= 18){
+//     print("Eligible to vote");
+//   }
+//   else {
+//     print("Not Eligible to vote");
+//   }
+// }
