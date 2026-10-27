@@ -8,7 +8,7 @@ class Bkash{
   double balance = 0;
 
 
-  List accounts = [["asd",'123', '1111', 500.00]];
+  List accounts = [];
   void accountCreation(){
     while (true){
       print('Enter yor name');
